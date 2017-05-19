@@ -3,8 +3,9 @@ Program accepts a price file of products as CSV file, and a list of products tha
 
 **To Run**
 * Make sure python 3 is installed in system
-* Go to Project Directory and open cmd/terminal init.
-* Type follow command in cmd `python product.py <data_file> <product_list>`
+* Go to Project Directory and open cmd/terminal
+* Type `python product.py <data_file> <product_list>` in cmd
 * Example: 
   *  **Input:** `python product.py data.csv scissor powder_puff cotton_balls`
-  *  **Output:** `['6', 11.0]` 6 is Shop id and 11.0 is amount need to pay for products 
+  *  **Output:** `['6', 11.0]` 
+  			6 is Shop id and 11.0 is amount need to pay for products 
