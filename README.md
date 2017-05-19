@@ -1,6 +1,9 @@
 # Data-Analysis-of-shopping-list
 Program accepts a price file of products as CSV file, and a list of products that someone wants to buy, and outputs the shop they should refer to, and the total price it will cost them.
 
+**To clone project**
+* git clone https://github.com/shubhamrathi97/Data-Analysis-of-shopping-list.git
+
 **To Run**
 * Make sure python 3 is installed in system
 * Go to Project Directory and open cmd/terminal
