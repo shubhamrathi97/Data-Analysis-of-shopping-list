@@ -53,8 +53,13 @@ def calculator(final_list):
 @method_description Filter the shops having product, then calculate the minimum amount and prints the result.
 """
 def filter(product):
-	product_list = product.split(" ")
-	if len(product_list) > 0:
+	if product:
+		product_list = product.split(" ")
+	else:
+		print("Empty List ! Add something")
+		return				
+	
+	if product_list:
 		filter_list = product_check(product_list[0], data)
 		if len(product_list) > 1:
 			for i in range(1, len(product_list)):
@@ -64,10 +69,7 @@ def filter(product):
 			return
 		print(calculator(filter_list))
 		return
-	else:
-		print("Empty List ! Add something")
-		return False				
-
+	
 if __name__ == '__main__':
 	#filter("teddy_bear baby_powder")
 	#filter("scissor bath_towel")
